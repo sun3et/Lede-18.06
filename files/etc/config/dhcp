@@ -19,7 +19,7 @@ config dnsmasq
 	option ednspacket_max '1232'
 	option localuse '1'
 	option noresolv '0'
-	option port '1745'
+	option port '53'
 
 config dhcp 'lan'
 	option interface 'lan'
