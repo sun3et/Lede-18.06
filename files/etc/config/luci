@@ -25,7 +25,6 @@ config internal 'ccache'
 
 config internal 'themes'
 	option Bootstrap '/luci-static/bootstrap'
-	option Edge '/luci-static/edge'
 	option Argon_Blue '/luci-static/argon_blue'
 	option Argon_Violet '/luci-static/argon_violet'
 
