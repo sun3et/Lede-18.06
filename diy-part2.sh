@@ -19,4 +19,4 @@
 #chmod -R 644 files/etc/config/AdGuardHome
 #chmod -R 644 files/etc/config/AdGuardHome.yaml
 sed -i 's/192.168.1.1/10.10.10.2/g' package/base-files/files/bin/config_generate
-sed -i 's/luci-theme-bootstrap/luci-theme-argon_blue/g' ./feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon_blue/g' ./feeds/luci/collections/luci/Makefile
