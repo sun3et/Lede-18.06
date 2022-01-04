@@ -19,7 +19,7 @@ config dnsmasq
 	option ednspacket_max '1232'
 	option localuse '1'
 	option noresolv '0'
-	option port '53'
+	option port '1745'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -33,6 +33,7 @@ config dhcp 'lan'
 	option start '10'
 	option limit '89'
 	option ra_management '1'
+	list dhcp_option '6,10.10.10.2'
 
 config dhcp 'wan'
 	option interface 'wan'
@@ -43,3 +44,4 @@ config odhcpd 'odhcpd'
 	option leasefile '/tmp/hosts/odhcpd'
 	option leasetrigger '/usr/sbin/odhcpd-update'
 	option loglevel '4'
+
