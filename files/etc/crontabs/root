@@ -1,3 +1,4 @@
-10 4 4 * * ? * wget -P /etc/config https://adguard.yojigen.tech/ChinaList.txt
-20 4 4 * * ? * rm /etc/config/ChinaList.txt && mv /etc/config/ChinaList.txt.1 /etc/config/ChinaList.txt
+10 4 4 * * ? * rm /etc/config/ChinaList.txt
+15 4 4 * * ? * wget -P /etc/config https://adguard.yojigen.tech/ChinaList.txt
 25 4 4 * * ? * sed -i '1i 208.67.222.222:5353' /etc/config/ChinaList.txt && sed -i '2i quic://i.passcloud.xyz:784' /etc/config/ChinaList.txt && sed -i '3i quic://x.passcloud.xyz:784' /etc/config/ChinaList.txt
+30 4 4 * * ? * /etc/init.d/AdGuardHome restart
