@@ -1,2 +1,2 @@
-#9 9 * * 6 bash /etc/config/cl.sh
+#9 9 * * 6 sh /etc/config/cl.sh
 
