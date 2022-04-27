@@ -18,7 +18,6 @@ config dnsmasq
 	option sequential_ip '1'
 	option filterwin2k '1'
 	option nonegcache '1'
-	option cachesize '0'
 	option port '53'
 
 config dhcp 'lan'
