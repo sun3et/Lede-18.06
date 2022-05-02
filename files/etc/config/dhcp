@@ -20,7 +20,7 @@ config dnsmasq
 	option nonegcache '1'
 	option port '53'
 	option cachesize '0'
-	option noresolv '0'
+	option rebind_protection '0'
 
 config dhcp 'lan'
 	option interface 'lan'
