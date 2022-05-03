@@ -50,6 +50,8 @@
 ||upgrade.mishop.pandora.xiaomi.com^
 ||v.admaster.com.cn^
 ||staging.ai.api.xiaomi.com^
+||gstat.ptmi.gitv.tv^
+
 ||fix.hpplay.cn^
 ||rps.hpplay.cn^
 ||imdns.hpplay.cn^
