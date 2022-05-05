@@ -19,6 +19,7 @@ config dnsmasq
 	option port '53'
 	option cachesize '0'
 	option rebind_protection '0'
+	option noresolv '0'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -32,7 +33,6 @@ config dhcp 'lan'
 	option start '10'
 	option limit '89'
 	option leasetime '12h'
-	list dhcp_option '6,10.10.10.2'
 	option dns_service '0'
 	option ra_dns '0'
 
