@@ -9,10 +9,9 @@ config globals 'globals'
 	option packet_steering '1'
 
 config interface 'lan'
-	option type 'bridge'
 	option ifname 'eth0'
 	option proto 'static'
-	option ipaddr '10.10.10.2'
+	option ipaddr '10.0.0.2'
 	option netmask '255.255.255.0'
 	option ip6assign '60'
 
@@ -27,3 +26,4 @@ config interface 'wan'
 	option password '738359'
 	option peerdns '0'
 	option dns '223.5.5.5 223.6.6.6'
+
